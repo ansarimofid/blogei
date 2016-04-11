@@ -5,6 +5,7 @@
 <head>
 	<?php wp_head(); ?>
 	<link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Sacramento' rel='stylesheet' type='text/css'>
 </head>
 
 <body id="<?php print get_stylesheet(); ?>" <?php body_class(); ?>>

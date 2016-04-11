@@ -136,6 +136,9 @@ header {
     text-rendering: optimizeLegibility;
 }
 
+.primary-color{
+	color:rgb(0, 150, 136);
+}
 
 /****************
 ** Brand Style **
@@ -177,6 +180,9 @@ header {
     margin-top: -3.7em;
     font-size: 1.1em;
     color: rgba(0, 0, 0, 0.7);
+}
+.site-title a:hover, .site-title a:active, .site-title a:focus{
+	color: rgba(0, 150, 136,0.85);
 }
 
 
@@ -297,6 +303,12 @@ header {
     transition: all 1s;
 }
 
+.card .more>a{
+	text-decoration: none;
+	border:0;
+	color:rgb(0, 150, 136)
+}
+
 .card-content>p {
     color: rgba(0, 0, 0, 0.8)
 }
@@ -304,6 +316,8 @@ header {
 .card h2 {
     margin-top: 0.65em;
     margin-bottom: 0.65em;
+    text-align: left;
+    color: rgb(0, 150, 136);
 }
 
 .card,
