@@ -140,6 +140,10 @@ header {
 	color:rgb(0, 150, 136);
 }
 
+a{
+	border-bottom: 0;
+}
+
 /****************
 ** Brand Style **
 *****************/
