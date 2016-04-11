@@ -69,6 +69,9 @@ a {
     text-decoration: none;
     color: inherit;
 }
+a:link {
+    color:inherit;
+}
 
 h1,
 h2,
@@ -138,6 +141,10 @@ header {
 
 .primary-color{
 	color:rgb(0, 150, 136);
+}
+
+.primary-background{
+	background-color:rgb(0, 150, 136);
 }
 
 a{
@@ -426,6 +433,10 @@ a{
 footer {
     padding: 1em;
     color: rgba(255, 255, 255, 1);
+}
+footer h5{
+	display: inline-block;
+	color: rgba(255,255,255,0.8);
 }
 
 .home-button {
