@@ -1,5 +1,5 @@
 /*
- Theme Name:   Founder Child Theme
+ Theme Name:   Blogei
  Theme URI:    http://example.com/founder-child-theme/
  Description:  Founder Child Theme
  Author:       Mofid Ansari
@@ -9,9 +9,8 @@
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
- Text Domain:  founder-child-theme
+ Text Domain:  blogei
 */
-*
 /**************
 ** Font Used **
 **************/
@@ -198,6 +197,14 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.menu-primary-items, .menu-unset ul{
+	border-top: 0;
+}
+
+.menu-primary-items li, .menu-unset ul li{
+	border-bottom: 0;
 }
 
 .menu-unset>ul>li>a {
