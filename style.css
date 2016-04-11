@@ -151,6 +151,8 @@ a{
 	border-bottom: 0;
 }
 
+
+
 /****************
 ** Brand Style **
 *****************/
@@ -296,6 +298,12 @@ a{
     align-items: center;
 }
 
+.main {
+    justify-content: center;
+    display: flex;
+    padding: 0 !important;
+    margin-top: 3em;
+}
 
 /***************
 ** Card Style **

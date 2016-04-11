@@ -12,7 +12,7 @@
 	<?php do_action( 'body_top' ); ?>
 	<a class="skip-content" href="#main"><?php _e( 'Skip to content', 'founder' ); ?> &rarr;</a>
 	<div id="overflow-container" class="overflow-container">
-		<div id="max-width" class="max-width">
+		<div id="max-width" class="">
 			<?php do_action( 'before_header' ); ?>
 		<!-- 	<header class="site-header" id="site-header" role="banner">
 			<div id="title-container" class="title-container">
